@@ -229,11 +229,11 @@ On my machine<sup>[1](#mymachine)</sup> these are the results obtained paring RF
 
 As you can see it takes:
 
-* ~250ns to parse the smallest legal message
+* ~125ns to parse the smallest legal message
 
-* less than 2µs to parse an average legal message
+* less than 1µs to parse an average legal message
 
-* ~3µs to parse a very long legal message
+* ~2µs to parse a very long legal message
 
 Other RFC5424 implementations, like this [one](https://github.com/roguelazer/rust-syslog-rfc5424) in Rust, spend 8µs to parse an average legal message.
 
